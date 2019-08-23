@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomRatingBar">
+        <attr name="max_rating" format="integer"/>
+        <attr name="filled_drawable" format="integer"/>
+        <attr name="unfilled_drawable" format="integer"/>
+    </declare-styleable>
+</resources>

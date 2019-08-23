@@ -3,36 +3,9 @@
               android:background="@color/colorPrimary"
               android:padding="10dp"
               android:layout_gravity="center"
-              android:orientation="vertical"
+              android:orientation="horizontal"
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
-              tools:context=".CustomView"
->
-    <EditText
-            android:id="@+id/movie_name"
-
-            android:hint="Name"
-            android:textAlignment="center"
-            android:inputType="text"
-            android:padding="8dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-    <RatingBar
-            android:id="@+id/rating_bar"
-
-            android:layout_gravity="center"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:isIndicator="false"
-            android:stepSize="0.5"
-            android:rating="1"
-            android:numStars="4"/>
-    <Button
-            android:id="@+id/button_add_rating"
-
-            android:text="Add"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"/>
-
-
+              tools:context=".CustomView">
+    <RatingBar android:layout_width="wrap_content" android:layout_height="wrap_content"/>
 </LinearLayout>

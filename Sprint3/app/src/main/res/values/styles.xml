@@ -8,4 +8,11 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="Widget.Custom" parent="android:Widget" />
+    <style name="Widget.Custom.RatingBar">
+        <item name="filledDrawable">@drawable/ic_star_filled</item>
+        <item name="unfilledDrawable">@drawable/ic_star_empty</item>
+        <item name="maxRating">5</item>
+    </style>
+
 </resources>
