@@ -19,7 +19,7 @@
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"/>
     <fragment
-
+            android:id="@+id/fragment"
             android:name="com.versilistyson.sprint3.RatingFragment"
             android:layout_gravity="center"
             android:layout_width="wrap_content"

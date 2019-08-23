@@ -58,8 +58,6 @@ class RatingFragment : Fragment() {
                 val name = view.movie_name.text as String
                 return name
             }
-
-
         }
 
     }
@@ -97,6 +95,7 @@ class RatingFragment : Fragment() {
     interface OnFragmentInteractionListener {
         // TODO: Update argument type and name
         fun onFragmentInteraction(uri: Uri)
+
     }
 
     companion object {
