@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
               android:background="@color/colorPrimary"
               android:padding="10dp"
               android:layout_gravity="center"
               android:orientation="vertical"
               android:layout_width="wrap_content"
-              android:layout_height="wrap_content">
+              android:layout_height="wrap_content"
+              tools:context=".CustomView"
+>
     <EditText
             android:id="@+id/movie_name"
 
@@ -16,7 +18,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
     <RatingBar
-            android:id="@+id/rating"
+            android:id="@+id/rating_bar"
 
             android:layout_gravity="center"
             android:layout_width="wrap_content"

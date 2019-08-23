@@ -3,9 +3,8 @@ package com.versilistyson.sprint3
 import android.content.Context
 import android.util.AttributeSet
 import android.view.LayoutInflater
-import android.widget.ImageView
 import android.widget.LinearLayout
-import android.widget.TextView
+import android.widget.RatingBar
 import kotlinx.android.synthetic.main.customview_layout.view.*
 
 class CustomView: LinearLayout {
@@ -18,11 +17,7 @@ class CustomView: LinearLayout {
 
     init {
         val view = LayoutInflater.from(context).inflate(R.layout.customview_layout, this, false) as LinearLayout
-        view.button_add_rating.setOnClickListener {
-            val rating = view.rating.rating
-            val name = view.movie_name.text as String
-        }
-        view.rating.onRatingBarChangeListener =
-
+        view.rating_bar.max = 5
     }
 }
+
