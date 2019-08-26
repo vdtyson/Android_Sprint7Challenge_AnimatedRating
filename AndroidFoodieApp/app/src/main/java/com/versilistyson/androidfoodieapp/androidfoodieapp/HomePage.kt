@@ -1,4 +1,4 @@
-package com.versilistyson.androidfoodieapp.ui
+package com.versilistyson.androidfoodieapp.androidfoodieapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

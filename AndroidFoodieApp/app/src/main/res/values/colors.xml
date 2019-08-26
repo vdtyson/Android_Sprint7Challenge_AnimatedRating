@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <item name="colorPrimary">#EDEDED</item>
-    <item name="colorPrimaryDark">#C6C6C6</item>
-    <item name= "colorPrimaryMedium">#7C7C7C</item>
-    <item name="colorAccent">#D80000</item>
+    <color name="colorPrimary">#f44336</color>
+    <color name="colorPrimaryDark">#ba000d</color>
+    <color name="colorPrimaryLight">#ff7961</color>
+    <color name="colorAccent">#D80000</color>
 </resources>
