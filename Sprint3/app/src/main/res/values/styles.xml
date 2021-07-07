@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Widget.Custom" parent="android:Widget" />
+    <style name="Widget.Custom.RatingBar">
+        <item name="filledDrawable">@drawable/ic_star_filled</item>
+        <item name="unfilledDrawable">@drawable/ic_star_empty</item>
+        <item name="maxRating">5</item>
+    </style>
+
+</resources>
